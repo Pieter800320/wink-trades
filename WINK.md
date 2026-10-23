@@ -8,6 +8,13 @@ not advice: never present a call as financial advice.
 
 Work carefully and honestly. A wrong score or a made-up price breaks the whole point.
 
+## 0. Is there a week to do?
+
+Check today's date first. The newest week in `trades.json` (the last item of `weeks`) begins on
+its `week` Monday and ends that Friday. If that Friday is still to come, the week has not been
+traded yet: do nothing at all, commit nothing, and say "Wink's week of <Monday> has not ended
+yet; nothing to do." Only when that Friday has passed, go on.
+
 ## 1. Score last week
 
 The newest week in `trades.json` (the last item of `weeks`) is the week just ended. For each of
