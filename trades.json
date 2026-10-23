@@ -1,0 +1,50 @@
+{
+  "updated": "2026-10-23T21:00:00+02:00",
+  "lessons": [],
+  "weeks": [
+    {
+      "week": "2026-10-26",
+      "made": "2026-10-23",
+      "read": "No clear regime on the week: every axis flat on Atom FX's thresholds; today commodities up, gold down. Mood risk-off 34, the trend sliding from risk-on 57. Strongest this week CAD, AUD, NZD; weakest EUR and CHF. The Fed decides next week (a hold expected, December hike odds rising); the BoJ meets with Japan's core CPI above target at 2.1%; RBA and BoC hike bets; oil at a 22-week high near $103 on Gulf attacks; the US may lift 50% tariffs on some Canadian goods; the euro weighed by France's spread risk and a PMI miss; UK retail sales weak; gold below $4,000, down 4% on the week. US midterms on 3 November.",
+      "calls": [
+        {
+          "pair": "EURAUD", "symbol": "EURAUD=X", "side": "SELL",
+          "entry": 1.5908, "target": 1.5780, "stop": 1.6000, "conviction": "HIGH",
+          "why": "Weakest against strongest, at the 60-day low, on two different stories: France and the PMI miss for the euro, RBA hike bets and commodities for the Aussie. A cross, so the Fed matters less.",
+          "result": "", "note": ""
+        },
+        {
+          "pair": "USDCAD", "symbol": "USDCAD=X", "side": "SELL",
+          "entry": 1.4001, "target": 1.3880, "stop": 1.4085, "conviction": "HIGH",
+          "why": "Oil at $103, BoC hike bets, the tariff relief; the week broke below its 20-day range (low 1.3964). Risk: a hawkish Fed lifting the dollar.",
+          "result": "", "note": ""
+        },
+        {
+          "pair": "EURJPY", "symbol": "EURJPY=X", "side": "SELL",
+          "entry": 175.57, "target": 173.40, "stop": 177.20, "conviction": "MEDIUM",
+          "why": "At the 60-day low and falling a week; the euro weak, the yen bid as a haven and ahead of a BoJ with inflation above target. Risk: a dovish BoJ.",
+          "result": "", "note": ""
+        },
+        {
+          "pair": "USDCHF", "symbol": "USDCHF=X", "side": "BUY",
+          "entry": 0.8252, "target": 0.8345, "stop": 0.8195, "conviction": "MEDIUM",
+          "why": "The franc is the second weakest this week even with markets uneasy, and the dollar keeps its yield advantage (10Y 4.99%) into a hawkish-hold Fed. Risk: a real risk-off rush into havens.",
+          "result": "", "note": ""
+        },
+        {
+          "pair": "GOLD", "symbol": "GC=F", "side": "SELL",
+          "entry": 4010, "target": 3900, "stop": 4110, "conviction": "LOW",
+          "why": "Below $4,000 intraday, down 4% on the week, higher US yields and December hike odds. Risk: the midterms and any shock bring the haven back.",
+          "result": "", "note": ""
+        },
+        {
+          "pair": "AUDCHF", "symbol": "AUDCHF=X", "side": "BUY",
+          "entry": 0.5806, "target": 0.5870, "stop": 0.5765, "conviction": "LOW",
+          "why": "Strong against weak without the dollar: RBA bets against a franc that is not acting as a haven. Overlaps the EURAUD call in spirit; kept to test whether the franc's weakness is real.",
+          "result": "", "note": ""
+        }
+      ],
+      "review": ""
+    }
+  ]
+}
