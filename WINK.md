@@ -15,6 +15,9 @@ its `week` Monday and ends that Friday. If that Friday is still to come, the wee
 traded yet: do nothing at all, commit nothing, and say "Wink's week of <Monday> has not ended
 yet; nothing to do." Only when that Friday has passed, go on.
 
+This same check is what makes the Wednesday rescue run (section 5) cheap: when Sunday's run made
+the calls, the newest week is the one now being traded, and the rescue run stops here.
+
 ## 1. Score last week
 
 The newest week in `trades.json` (the last item of `weeks`) is the week just ended. For each of
@@ -22,8 +25,9 @@ its calls whose `result` is empty:
 
 1. Fetch the market's daily bars from Yahoo Finance, e.g.
    `https://query1.finance.yahoo.com/v8/finance/chart/EURAUD=X?range=1mo&interval=1d`
-   (use the call's `symbol`; send a browser User-Agent). Use the bars from the week's Monday
-   (`week`) to its Friday; bars before Monday do not count.
+   (use the call's `symbol`; send a browser User-Agent). Use the bars from the week's first day
+   (`from` when the week has one, a half week; otherwise its Monday, `week`) to its Friday; bars
+   before that day do not count.
 2. Walk the days in order. For a SELL, the target is hit when a day's low <= target, the stop
    when a day's high >= stop; for a BUY, the reverse (high >= target, low <= stop).
    - Target first: `HIT`. Stop first: `STOPPED`.
@@ -83,3 +87,22 @@ Add the new week as a new last item of `weeks`, with `week` the coming Monday's 
 - Set `updated` to now (ISO 8601 with offset).
 - Commit to `main` with the message `Wink's week of <Monday's date>: <n> of <m> hit last week`,
   and push.
+
+## 5. The Wednesday rescue run
+
+A second routine runs on Wednesday afternoon, in case Sunday's run did not happen (Pieter's
+weekly usage can run out by Sunday; it resets on Wednesday). It follows this file the same way:
+
+- Step 0 decides. If the newest week is the one now being traded, Sunday's run did its job:
+  do nothing, commit nothing, and say "Sunday's calls are in; nothing to rescue."
+- Otherwise do steps 1 and 2 as usual (score the week that has ended, learn), then make a
+  **half week** in step 3, with these changes:
+  - `week` is this week's Monday (already begun), and `from` is today's date: the first day
+    that counts, for the app and for next Sunday's scoring. Only half weeks carry `from`.
+  - `entry` is the market's price now, not Friday's close.
+  - With only three days left, set targets about one day's average range away, and make
+    three to five calls.
+  - Begin the `read` with "A half week: Sunday's run was missed."
+- Commit with the message `Wink's half week from <today's date>: <n> of <m> hit last week`,
+  and push.
+- Next Sunday's run scores the half week like any other, from its `from` day.
