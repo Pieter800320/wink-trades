@@ -1,6 +1,13 @@
 {
-  "updated": "2026-10-23T21:00:00+02:00",
-  "lessons": [],
+  "updated": "2026-11-01T22:24:00+01:00",
+  "lessons": [
+    "Targets about 1.5 days' average range or less: 2 of 3 hit; targets two days' range or more: 0 of 3. Keep targets near 1.5 ADR (6 calls).",
+    "With the trend (at the 20-day extreme in the call's direction): 2 of 4 hit, none stopped; the 2 calls not at an extreme were both stopped. Trade with the trend (6 calls).",
+    "Stops about one ADR away at the obvious level: 2 of 3 stopped, both by a one-day wick that closed back; stops 1.4 ADR or more: 0 of 3 stopped. Put stops at least 1.5 ADR away and beyond the level (6 calls).",
+    "Betting against the franc: 0 of 2, both stopped on the same risk-off day. The franc is still a haven while stocks wobble (VIX near 20) (2 calls).",
+    "One theme, one call: the two franc calls were the same bet and failed together (2 calls).",
+    "Conviction has not earned its name yet: HIGH 1 of 2 hit (the other OPEN+), MEDIUM 0 of 2, LOW 1 of 2. Use HIGH sparingly until it does (6 calls)."
+  ],
   "weeks": [
     {
       "week": "2026-10-26",
@@ -11,36 +18,74 @@
           "pair": "EURAUD", "symbol": "EURAUD=X", "side": "SELL",
           "entry": 1.5908, "target": 1.5780, "stop": 1.6000, "conviction": "HIGH",
           "why": "Weakest against strongest, at the 60-day low, on two different stories: France and the PMI miss for the euro, RBA hike bets and commodities for the Aussie. A cross, so the Fed matters less.",
-          "result": "", "note": ""
+          "result": "HIT", "note": "Hit on Wednesday (low 1.5779) as the euro sagged into the ECB and RBA hike bets held up the Aussie. It bounced to 1.5913 by Friday once ECB officials talked up a December hike, so the target came just in time."
         },
         {
           "pair": "USDCAD", "symbol": "USDCAD=X", "side": "SELL",
           "entry": 1.4001, "target": 1.3880, "stop": 1.4085, "conviction": "HIGH",
           "why": "Oil at $103, BoC hike bets, the tariff relief; the week broke below its 20-day range (low 1.3964). Risk: a hawkish Fed lifting the dollar.",
-          "result": "", "note": ""
+          "result": "OPEN+", "note": "The BoC hiked to 2.50% on Wednesday and the loonie firmed, but hot US GDP (3.4%) and PCE kept the dollar bid; the low of 1.3942 fell short of the 1.3880 target. Right side, too ambitious a target at more than two days' range."
         },
         {
           "pair": "EURJPY", "symbol": "EURJPY=X", "side": "SELL",
           "entry": 175.57, "target": 173.40, "stop": 177.20, "conviction": "MEDIUM",
           "why": "At the 60-day low and falling a week; the euro weak, the yen bid as a haven and ahead of a BoJ with inflation above target. Risk: a dovish BoJ.",
-          "result": "", "note": ""
+          "result": "OPEN-", "note": "Wrong: the BoJ held at 1.25% (8-1) without the hawkish push I expected, so the yen never got its bid, and the ECB's hike talk propped the euro. It ranged 175.07-176.57 and closed 176.47, above entry."
         },
         {
           "pair": "USDCHF", "symbol": "USDCHF=X", "side": "BUY",
           "entry": 0.8252, "target": 0.8345, "stop": 0.8195, "conviction": "MEDIUM",
           "why": "The franc is the second weakest this week even with markets uneasy, and the dollar keeps its yield advantage (10Y 4.99%) into a hawkish-hold Fed. Risk: a real risk-off rush into havens.",
-          "result": "", "note": ""
+          "result": "STOPPED", "note": "Wrong on the franc: the pair rose to 0.8313 midweek, then Friday's AI-stock rout, the Binance hack and the Treasury rally sent money back into the franc, and the low of 0.8194 took the stop by a pip before it closed at 0.8236. The stop sat right at the obvious 20-day low, about one day's range away."
         },
         {
           "pair": "GOLD", "symbol": "GC=F", "side": "SELL",
           "entry": 4010, "target": 3900, "stop": 4110, "conviction": "LOW",
           "why": "Below $4,000 intraday, down 4% on the week, higher US yields and December hike odds. Risk: the midterms and any shock bring the haven back.",
-          "result": "", "note": ""
+          "result": "HIT", "note": "Hit on Friday: gold broke $4,000 and fell to $3,879 in a broad liquidation, with silver down 6%, even as Treasury yields dropped. The dollar's firm October and December hike bets did the work."
         },
         {
           "pair": "AUDCHF", "symbol": "AUDCHF=X", "side": "BUY",
           "entry": 0.5806, "target": 0.5870, "stop": 0.5765, "conviction": "LOW",
           "why": "Strong against weak without the dollar: RBA bets against a franc that is not acting as a haven. Overlaps the EURAUD call in spirit; kept to test whether the franc's weakness is real.",
+          "result": "STOPPED", "note": "Same mistake as USDCHF: the franc was still a haven, and Friday's risk-off took the pair to 0.5757, through the stop, before it closed at 0.5787. A second bet on a weak franc only doubled one wrong idea."
+        }
+      ],
+      "review": "A central-bank week: the Fed held (10-2, two votes for a hike) with December priced, the ECB and BoJ held, and the BoC hiked to 2.50%. US GDP and PCE ran hot, then Friday turned risk-off on disappointing AI earnings, the Nasdaq down 2.9%, a $6.3 billion Binance hack and the biggest Treasury rally since 2024. The calls went 2 of 6: the two trend calls with modest targets (EURAUD, gold) hit, USDCAD finished on the right side short of target, EURJPY drifted against me, and both bets on a weak franc were stopped by the same Friday haven rush."
+    },
+    {
+      "week": "2026-11-02",
+      "made": "2026-11-01",
+      "read": "A heavy event week: the RBA on Tuesday (4.60%, a fourth hike possible), the US midterms on Tuesday (a Democratic sweep priced near 68%), the BoE on Thursday (UBS expects a first hike), and US payrolls on Friday. Markets ended October risk-off: Nasdaq down 2.9% on Friday on the AI-spending scare, VIX 19.4, BTC near $77k after the Binance hack, the US 10Y down to 4.93% in the biggest Treasury rally since 2024, yet the dollar up for October on December Fed hike bets. Gold broke below $4,000; oil holds near $104 while Iran offers a Hormuz reopening plan; Trump says the US and Canada have the concept of a trade deal. Lessons applied: every call is at its 20-day extreme in its direction (or with the trend, for AUDNZD, so it is LOW); targets about 1.5 days' range; stops at least 1.5 days' range away and beyond the level; no bet against the franc, which is now sold only as a haven; one call per theme; and no HIGH conviction until the record earns it.",
+      "calls": [
+        {
+          "pair": "EURGBP", "symbol": "EURGBP=X", "side": "SELL",
+          "entry": 0.8358, "target": 0.8320, "stop": 0.8415, "conviction": "MEDIUM",
+          "why": "Near the 20-day low after sterling's best month against the euro this year; the BoE may start hiking on Thursday while the ECB waits for December, and shorts in sterling leave room to run. Risk: a dovish BoE hold.",
+          "result": "", "note": ""
+        },
+        {
+          "pair": "USDCAD", "symbol": "USDCAD=X", "side": "SELL",
+          "entry": 1.3986, "target": 1.3905, "stop": 1.4080, "conviction": "MEDIUM",
+          "why": "At the 20-day low with the BoC now hiking and a US-Canada trade deal in sight; the target is closer this time. Risk: a Hormuz reopening knocks oil lower, or strong payrolls lift the dollar.",
+          "result": "", "note": ""
+        },
+        {
+          "pair": "GOLD", "symbol": "GC=F", "side": "SELL",
+          "entry": 3899, "target": 3790, "stop": 4025, "conviction": "MEDIUM",
+          "why": "Closed on the week's low after breaking $4,000, at the 20- and 60-day low, with December hike bets and forced selling across metals. Risk: the midterms or an Iran shock bring the haven back, and it is already down 2.7% on the week.",
+          "result": "", "note": ""
+        },
+        {
+          "pair": "EURCHF", "symbol": "EURCHF=X", "side": "SELL",
+          "entry": 0.9209, "target": 0.9157, "stop": 0.9270, "conviction": "LOW",
+          "why": "The franc as the haven it proved to be last week, against a euro weighed by French spreads and Lagarde's early exit; near the 20-day low. Risk: SNB intervention or a calm, risk-on week.",
+          "result": "", "note": ""
+        },
+        {
+          "pair": "AUDNZD", "symbol": "AUDNZD=X", "side": "BUY",
+          "entry": 1.2477, "target": 1.2580, "stop": 1.2300, "conviction": "LOW",
+          "why": "An RBA that may hike on Tuesday against the weakest major, the kiwi, with the trend up from 1.19 in two months. Risk: the RBA disappoints again, and the pair is mid-range, not at its high.",
           "result": "", "note": ""
         }
       ],
