@@ -1,12 +1,14 @@
 {
-  "updated": "2026-11-01T22:24:00+01:00",
+  "updated": "2026-11-08T20:08:00+01:00",
   "lessons": [
-    "Targets about 1.5 days' average range or less: 2 of 3 hit; targets two days' range or more: 0 of 3. Keep targets near 1.5 ADR (6 calls).",
-    "With the trend (at the 20-day extreme in the call's direction): 2 of 4 hit, none stopped; the 2 calls not at an extreme were both stopped. Trade with the trend (6 calls).",
-    "Stops about one ADR away at the obvious level: 2 of 3 stopped, both by a one-day wick that closed back; stops 1.4 ADR or more: 0 of 3 stopped. Put stops at least 1.5 ADR away and beyond the level (6 calls).",
-    "Betting against the franc: 0 of 2, both stopped on the same risk-off day. The franc is still a haven while stocks wobble (VIX near 20) (2 calls).",
-    "One theme, one call: the two franc calls were the same bet and failed together (2 calls).",
-    "Conviction has not earned its name yet: HIGH 1 of 2 hit (the other OPEN+), MEDIUM 0 of 2, LOW 1 of 2. Use HIGH sparingly until it does (6 calls)."
+    "With the trend (at the 20-day extreme in the call's direction): 3 of 8 hit; not at an extreme: 0 of 3, 2 stopped. Trade only at the 20-day extreme (11 calls).",
+    "Crosses: 2 of 6 hit, 1 stopped; dollar pairs: 0 of 3, 2 stopped, both on Fed or US data days. Prefer crosses; at most one dollar pair, and LOW, in a big US data week (9 calls).",
+    "Conviction has not earned its name: HIGH 1 of 2 hit, MEDIUM 0 of 5 (3 stopped), LOW 2 of 4. No HIGH, and MEDIUM only for a call that meets every other lesson (11 calls).",
+    "Calls resting on a central bank delivering: 0 of 4 hit (EURJPY on the BoJ, USDCAD on the BoC, EURGBP on the BoE, AUDNZD on the RBA); each decision was priced or read dovish. Do not trade the decision itself (4 calls).",
+    "Targets near 1.5 days' average range: 3 of 8 hit, and EURGBP missed by 3 pips; two days' range or more: 0 of 3. Keep targets at 1.5 ADR or a little less (11 calls).",
+    "Stops about one ADR away at the obvious level: 2 of 3 stopped by one-day wicks that closed back; stops 1.5 ADR or more: 2 of 8 stopped, both by real reversals that closed beyond. Keep stops at least 1.5 ADR away and beyond the level (11 calls).",
+    "The franc is the haven while stocks fall: against it 0 of 2, both stopped on the same day; with it 1 of 1 hit. One theme, one call (3 calls).",
+    "Carrying a call into a second week: 0 of 2, both stopped (USDCAD on oil, gold on yields) once the story behind it turned. A repeat needs a fresh reason (2 calls)."
   ],
   "weeks": [
     {
@@ -62,30 +64,62 @@
           "pair": "EURGBP", "symbol": "EURGBP=X", "side": "SELL",
           "entry": 0.8358, "target": 0.8320, "stop": 0.8415, "conviction": "MEDIUM",
           "why": "Near the 20-day low after sterling's best month against the euro this year; the BoE may start hiking on Thursday while the ECB waits for December, and shorts in sterling leave room to run. Risk: a dovish BoE hold.",
-          "result": "", "note": ""
+          "result": "OPEN+", "note": "Drifted lower as the BoE hiked 25 bp to 4% on Thursday (8-1, Mann for 50), but the low of 0.8323 missed the 0.8320 target by three pips and it closed at 0.8347, on the right side. The hike was priced and Taylor called it a one-off insurance hike, so sterling got no follow-through."
         },
         {
           "pair": "USDCAD", "symbol": "USDCAD=X", "side": "SELL",
           "entry": 1.3986, "target": 1.3905, "stop": 1.4080, "conviction": "MEDIUM",
           "why": "At the 20-day low with the BoC now hiking and a US-Canada trade deal in sight; the target is closer this time. Risk: a Hormuz reopening knocks oil lower, or strong payrolls lift the dollar.",
-          "result": "", "note": ""
+          "result": "STOPPED", "note": "Wrong: oil had its worst week since 2020 (WTI down 13% to about $90) on Iran detente hopes after the Democrats' midterm sweep, which took away the loonie's prop. Friday's blowout payrolls (165k against 65k) and US sanctions on Canadian money firms then sent the pair to 1.4124, through the 1.4080 stop; I leaned on oil without seeing that the Iran story could turn."
         },
         {
           "pair": "GOLD", "symbol": "GC=F", "side": "SELL",
           "entry": 3899, "target": 3790, "stop": 4025, "conviction": "MEDIUM",
           "why": "Closed on the week's low after breaking $4,000, at the 20- and 60-day low, with December hike bets and forced selling across metals. Risk: the midterms or an Iran shock bring the haven back, and it is already down 2.7% on the week.",
-          "result": "", "note": ""
+          "result": "STOPPED", "note": "Wrong: after the 4% fall the week before, gold rebounded as the oil collapse and the AI-stock rout pulled Treasury yields toward two-month lows, and Wednesday's high of 4,081 went through the 4,025 stop; it ended the week up 4.5%. Selling again a market that had already broken down a week earlier was late."
         },
         {
           "pair": "EURCHF", "symbol": "EURCHF=X", "side": "SELL",
           "entry": 0.9209, "target": 0.9157, "stop": 0.9270, "conviction": "LOW",
           "why": "The franc as the haven it proved to be last week, against a euro weighed by French spreads and Lagarde's early exit; near the 20-day low. Risk: SNB intervention or a calm, risk-on week.",
-          "result": "", "note": ""
+          "result": "HIT", "note": "Hit on Tuesday (low 0.9130) as the franc drew haven money into the midterms and Bund yields slid to August lows; Thursday's AI-stock crash kept it pinned near the low, 0.9127 on Friday."
         },
         {
           "pair": "AUDNZD", "symbol": "AUDNZD=X", "side": "BUY",
           "entry": 1.2477, "target": 1.2580, "stop": 1.2300, "conviction": "LOW",
           "why": "An RBA that may hike on Tuesday against the weakest major, the kiwi, with the trend up from 1.19 in two months. Risk: the RBA disappoints again, and the pair is mid-range, not at its high.",
+          "result": "OPEN-", "note": "Wrong: the RBA hiked to 4.85% on Tuesday, but on a 6-3 split with no guidance, which markets read as dovish, and the Aussie then fell hardest of the majors in Thursday's risk-off. The high of 1.2521 never neared the target and it closed at 1.2375, below entry."
+        }
+      ],
+      "review": "A week of shocks: the Democrats swept Congress on Tuesday, Thursday's AI-stock crash took the Nasdaq into correction (down 5.5% on the day, VIX to 25.6), oil had its worst week since 2020 on Iran detente hopes, and Friday's payrolls (165k against 65k) gave the dollar its best day since June and lifted December Fed hike odds to about 79%. The RBA and BoE both hiked 25 bp, yet neither currency gained on it. The calls went 1 of 5: the franc-as-haven call (EURCHF) hit, EURGBP closed on the right side three pips short of target, AUDNZD drifted against me, and the two calls carried over from last week, USDCAD and gold, were both stopped when oil and yields turned."
+    },
+    {
+      "week": "2026-11-09",
+      "made": "2026-11-08",
+      "read": "Risk-off and a strong dollar: Thursday's AI-stock crash left the Nasdaq in correction, the S&P near its 20-day low, the Nikkei down 8.8% on the week and VIX at 25.6, while Friday's payrolls (165k) lifted the dollar index to 102.2, the US 10Y back to about 4.9% and December Fed hike odds to about 79%. Oil fell 13% on Iran detente hopes after the Democrats' midterm sweep, but a Houthi strike damaged an Aramco building in Riyadh on Sunday; gold is back at $4,075 after a 4.5% rebound. The RBA (4.85%) and BoE (4%) hiked, yet the Aussie was the week's weakest major. Next week: US CPI on Tuesday, a test for the hike bets, and AI earnings (CoreWeave, Applied Materials, Cisco). Lessons applied: every call is at or near its 20-day extreme; crosses first, with one dollar pair at LOW in a CPI week; no HIGH and one MEDIUM; no call rests on a central-bank decision; targets about 1.5 days' range and stops at least 1.5 days' range beyond the level; the franc bought as a haven, not sold; one theme per call (ranking USD and CHF over GBP over EUR, and JPY over AUD); and the one carried-over call, EURGBP, has a fresh reason, the BoE's hike now done.",
+      "calls": [
+        {
+          "pair": "AUDJPY", "symbol": "AUDJPY=X", "side": "SELL",
+          "entry": 108.79, "target": 107.50, "stop": 110.10, "conviction": "MEDIUM",
+          "why": "At its 20- and 60-day low after a 1.8% fall: the Aussie was the weakest major even with an RBA hike, and the yen draws haven money while tech stocks slide, with the BoJ's minutes hawkish. Risk: a relief rally in stocks or a hot US CPI that weakens the yen.",
+          "result": "", "note": ""
+        },
+        {
+          "pair": "GBPCHF", "symbol": "GBPCHF=X", "side": "SELL",
+          "entry": 1.0950, "target": 1.0880, "stop": 1.1035, "conviction": "LOW",
+          "why": "The franc as the haven it proved again last week, sitting on the 20-day low at 1.0941; sterling slipped even on the BoE's hike, with Taylor calling it a one-off. Risk: the BoE hawks (Pill, Greene) lift sterling, or calm returns.",
+          "result": "", "note": ""
+        },
+        {
+          "pair": "EURGBP", "symbol": "EURGBP=X", "side": "SELL",
+          "entry": 0.8347, "target": 0.8312, "stop": 0.8390, "conviction": "LOW",
+          "why": "Near the 20- and 60-day low: the BoE has now hiked and its chief economist says one hike is unlikely to be enough, while the ECB waits and French politics weigh on the euro. Risk: weak UK data, and it held above 0.8320 all last week.",
+          "result": "", "note": ""
+        },
+        {
+          "pair": "EURUSD", "symbol": "EURUSD=X", "side": "SELL",
+          "entry": 1.1143, "target": 1.1060, "stop": 1.1240, "conviction": "LOW",
+          "why": "The only dollar call: payrolls gave the dollar its best day since June, a December Fed hike is about 79% priced, and the euro sits near its 20- and 60-day low of 1.1110. Risk: a soft CPI on Tuesday knocks the hike bets.",
           "result": "", "note": ""
         }
       ],
