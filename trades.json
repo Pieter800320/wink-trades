@@ -1,14 +1,14 @@
 {
-  "updated": "2026-11-15T20:10:00+01:00",
+  "updated": "2026-11-22T20:15:00+01:00",
   "lessons": [
-    "Conviction has not earned its name: HIGH 1 of 2 hit, MEDIUM 0 of 6 (3 stopped), LOW 2 of 7. Make every call LOW until a MEDIUM call wins (15 calls).",
-    "With the trend (at or near the 20-day extreme in the call's direction): 3 of 12 hit and 7 on the right side by Friday; not at an extreme: 0 of 3, 2 stopped. Trade only at the 20-day extreme (15 calls).",
-    "Crosses: 2 of 9 hit, 2 stopped; dollar pairs: 0 of 4, 3 stopped, each in a Fed, payrolls or CPI week (EURUSD went on to its target after the stop). Prefer crosses; at most one dollar pair, LOW (13 calls).",
-    "Calls resting on a central bank delivering: 0 of 4 hit (EURJPY on the BoJ, USDCAD on the BoC, EURGBP on the BoE, AUDNZD on the RBA); each decision was priced or read dovish. Do not trade the decision itself (4 calls).",
-    "Targets near 1.5 days' average range: 3 of 12 hit, and four more closed on the right side short of target; two days' range or more: 0 of 3. Keep targets at 1.5 ADR or less, never more (15 calls).",
-    "Stops about one ADR away: 2 of 3 stopped by one-day wicks that closed back; 1.5 ADR or more: 4 of 12 stopped, three by real reversals, and EURUSD by a morning spike to just above Monday's high before it ran to target. Keep stops at least 1.5 ADR away and clear of the week's last high or low (15 calls).",
+    "Conviction has not earned its name: HIGH 1 of 2 hit, MEDIUM 0 of 6 (3 stopped), LOW 6 of 11. Keep every call LOW until a MEDIUM call wins (19 calls).",
+    "With the trend (at or near the 20-day extreme in the call's direction): 7 of 16 hit, last week 4 of 4, and 7 more on the right side by Friday; not at an extreme: 0 of 3, 2 stopped. Trade only at the 20-day extreme (19 calls).",
+    "Crosses: 4 of 11 hit, 2 stopped; dollar pairs: 1 of 5, 3 stopped, each stop in a Fed, payrolls or CPI week, and the one hit (USDCAD) in a week with none. Prefer crosses; at most one dollar pair, LOW, and none in a Fed, payrolls or CPI week (16 calls).",
+    "Calls resting on a central bank delivering: 0 of 4 hit (EURJPY on the BoJ, USDCAD on the BoC, EURGBP on the BoE, AUDNZD on the RBA); each decision was priced or read dovish. Calls that rode data instead (Australian jobs, Canadian CPI) went 3 of 3. Do not trade the decision itself (7 calls).",
+    "Targets at 1.5 days' average range or less: 7 of 16 hit, and four more closed on the right side short of target; two days' range or more: 0 of 3. Keep targets at 1.2 to 1.5 ADR, never more (19 calls).",
+    "Stops about one ADR away: 2 of 3 stopped by one-day wicks that closed back; 1.5 ADR or more: 4 of 16 stopped, three by real reversals, and EURUSD by a morning spike just above Monday's high before it ran to target; none of last week's four, set beyond the week's extreme, came close. Keep stops at least 1.5 ADR away and clear of the week's last high or low (19 calls).",
     "Franc calls follow the stock market, not their reasons: 1 of 4 hit; the franc won when stocks fell (EURCHF) and lost when they recovered (GBPCHF) or after betting against it into a sell-off (USDCHF, AUDCHF). At most one, LOW, and one theme, one call (4 calls).",
-    "Repeating last week's call: 0 of 3 hit, 2 stopped (USDCAD on oil, gold on yields), and EURGBP with a fresh reason only drifted. Do not repeat a call from the week before (3 calls)."
+    "Repeating last week's call: 0 of 3 hit, 2 stopped (USDCAD on oil, gold on yields), and EURGBP with a fresh reason only drifted. Do not repeat a call from the week before; a new pair on a theme that is still running is not a repeat (3 calls)."
   ],
   "weeks": [
     {
@@ -134,24 +134,56 @@
           "pair": "EURAUD", "symbol": "EURAUD=X", "side": "BUY",
           "entry": 1.6272, "target": 1.6420, "stop": 1.6100, "conviction": "LOW",
           "why": "At its 20-day high and just under the 60-day high of 1.6333: the Aussie has fallen for two weeks on the RBA's dovish hike, the oil slump and the AI scare, while euro area inflation is still high (France 3.7%, Spain 4.9%). Risk: strong Australian jobs on Thursday or a risk-on rally lifts the Aussie.",
-          "result": "", "note": ""
+          "result": "HIT", "note": "Hit on Thursday (high 1.6457) when Australia lost 43,500 jobs and unemployment jumped to 4.9%, a five-year high that buried RBA hike bets; the AI-stock rout added to the Aussie's slide and the pair ran on to 1.655 on Friday."
         },
         {
           "pair": "AUDNZD", "symbol": "AUDNZD=X", "side": "SELL",
           "entry": 1.2255, "target": 1.2160, "stop": 1.2375, "conviction": "LOW",
           "why": "Down 0.9% last week and near the 20-day low of 1.2232, giving back half of its two-month climb; the Aussie is the weaker of the two even against an already weak kiwi. Risk: Thursday's Australian jobs, and the RBA minutes reading hawkish.",
-          "result": "", "note": ""
+          "result": "HIT", "note": "Hit on Thursday (low 1.2119) on the same Australian jobs shock, while the kiwi held up on firm New Zealand retail sales and talk of a December RBNZ hike; it kept falling to 1.209 on Friday."
         },
         {
           "pair": "USDCAD", "symbol": "USDCAD=X", "side": "BUY",
           "entry": 1.4267, "target": 1.4350, "stop": 1.4170, "conviction": "LOW",
           "why": "The one dollar call: at the 20-day high and near the 60-day high of 1.4299, with a December Fed hike priced, the 10Y at 5.15% and the loonie near a one-month low as oil slid. Risk: the Hormuz mines lift oil and the loonie, or a hot Canadian CPI on Monday revives BoC hike talk.",
-          "result": "", "note": ""
+          "result": "HIT", "note": "Hit on Thursday (high 1.4357): Monday's Canadian CPI came in soft at 3.1%, oil fell for a third week, and the dollar held a 19-month high with a December Fed hike all but fully priced."
         },
         {
           "pair": "GOLD", "symbol": "GC=F", "side": "SELL",
           "entry": 3886, "target": 3750, "stop": 4035, "conviction": "LOW",
           "why": "Its worst week since March, at the 20- and 60-day low, with Treasury yields climbing on Fed hike bets, a 19-month high in the dollar and Goldman cutting its forecast. Risk: the Gulf flares up (mines in Hormuz, missiles at Riyadh) and the haven bid returns, as it did after the late-October fall.",
+          "result": "HIT", "note": "Hit on Wednesday (low 3,722) and kept falling to $3,503 on Friday, a 14-month low and down 9% on the week: the AI-stock rout forced margin-call selling, and neither the Gulf flare-up nor Friday's bond rally brought a haven bid."
+        }
+      ],
+      "review": "The AI rout became a global sell-off: the S&P fell 8.5% into a correction, the Nikkei 8% and the DAX 7.4%, VIX touched 40 and Bitcoin hit a two-year low near $55,000. The dollar still rose a fourth week to its 19-month high with a December Fed hike near certain, though Friday's flight into bonds took the US 10Y down to 4.91% and finally gave the yen and franc a haven bid; gold fell 9% to $3,515 in the liquidation and oil lost a third week. Australian unemployment jumped to 4.9%, making the Aussie the week's loser. All four calls hit, on Wednesday and Thursday, my first clean sweep: every one LOW, at its 20-day extreme, with targets near 1.3 days' range and stops beyond the week's extreme, in a week with no central-bank decision."
+    },
+    {
+      "week": "2026-11-23",
+      "made": "2026-11-22",
+      "read": "Fear has the wheel: the AI rout took the S&P down 8.5% to a correction at 6,935, the Nikkei 8% and the DAX 7.4%; VIX closed at 36 after touching 40, Bitcoin fell to a two-year low, and Korea and other Asian governments are lining up support for their markets. The dollar won a fourth week near its 19-month high with a December Fed hike all but fully priced, but Friday's flight into bonds took the US 10Y to 4.91% and the yen caught a haven bid at last. Gold fell 9% to $3,515 and silver 14% in the liquidation, and oil lost a third week to $83 even as Iran claims control of Hormuz and strikes on Bahrain and Saudi Arabia escalate over the weekend. The Aussie is the weakest major after unemployment jumped to 4.9%; the rand slid with gold to a 60-day high in USDZAR. A holiday-shortened week with no central-bank decision: flash PMIs early, Australian CPI and US GDP with October PCE on Wednesday, Thanksgiving on Thursday and a thin Friday. Lessons applied: every call LOW; every call at its 20-day extreme in its direction; none of last week's four calls repeated (no gold, EURAUD, AUDNZD or USDCAD), though the Aussie's slide carries on in new pairs; crosses first and one dollar pair, USDZAR, in a PCE week rather than a Fed, payrolls or CPI week; no franc and no central-bank bet; targets 1.2 to 1.3 days' range, stops at least 1.5 days' range away and beyond Friday's extreme. Two overlaps I accept knowingly: AUDJPY and GBPAUD are both short the Aussie into Wednesday's CPI, and AUDJPY and EURJPY are both long the yen, so a stock rebound would hurt both.",
+      "calls": [
+        {
+          "pair": "AUDJPY", "symbol": "AUDJPY=X", "side": "SELL",
+          "entry": 104.92, "target": 103.75, "stop": 106.55, "conviction": "LOW",
+          "why": "Down 2.6% last week to the 20- and 60-day low: the weakest major against the one haven that is finally working, with Australian jobs collapsing and stocks in a rout. Risk: Asian market support funds spark a rebound, or a hot Australian CPI on Wednesday.",
+          "result": "", "note": ""
+        },
+        {
+          "pair": "GBPAUD", "symbol": "GBPAUD=X", "side": "BUY",
+          "entry": 1.9776, "target": 1.9920, "stop": 1.9580, "conviction": "LOW",
+          "why": "At its 20- and 60-day high after rising five days running: the Aussie's slide on the jobs shock against a pound helped by October's UK retail beat. Risk: a hot Australian CPI on Wednesday revives RBA hike talk, or the rout drags the pound down with stocks.",
+          "result": "", "note": ""
+        },
+        {
+          "pair": "USDZAR", "symbol": "USDZAR=X", "side": "BUY",
+          "entry": 17.586, "target": 17.830, "stop": 17.300, "conviction": "LOW",
+          "why": "The one dollar call: up 3.2% to the 20- and 60-day high, as the rand loses twice over from the gold crash and the flight from risk, while the dollar holds its 19-month high. Risk: a soft PCE on Wednesday or a gold bounce lifts the rand, and Thanksgiving's thin trading can whip it.",
+          "result": "", "note": ""
+        },
+        {
+          "pair": "EURJPY", "symbol": "EURJPY=X", "side": "SELL",
+          "entry": 173.90, "target": 172.70, "stop": 175.55, "conviction": "LOW",
+          "why": "At the 20- and 60-day low: the yen's haven bid against a euro that UBS expects to keep falling, with no BoJ or ECB decision to lean on this time. Risk: a stock rebound saps the yen, or hot euro area PMIs revive ECB hike talk after German producer prices jumped 8.1%.",
           "result": "", "note": ""
         }
       ],
